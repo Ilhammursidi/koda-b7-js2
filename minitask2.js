@@ -1,10 +1,10 @@
 function menghitungDiskon(jumlahPembelian) {
     if (jumlahPembelian < 500000) {
-        return (jumlahPembelian);
+        return jumlahPembelian;
     } else if (jumlahPembelian < 1000000) {
-        return (jumlahPembelian-(jumlahPembelian*0.05));
+        return jumlahPembelian-(jumlahPembelian*0.05);
     } else {
-        return (jumlahPembelian-(jumlahPembelian*0.10));
+        return jumlahPembelian-(jumlahPembelian*0.10);
     }
 }
 
